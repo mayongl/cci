@@ -13,6 +13,7 @@ int main()
     cout << s << endl;
     reverse2(s);
     cout << s << endl;
+    cout << "This is from git!" << endl;
 }
 
 void swap(char &a, char &b)
