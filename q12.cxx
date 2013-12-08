@@ -9,11 +9,13 @@ void reverse2(char *s);
 int main()
 {
     char s[] = "123456abcde";
+    char s2[5] = "Test";
     reverse1(s);
     cout << s << endl;
     reverse2(s);
     cout << s << endl;
-    cout << "This is from git!" << endl;
+    reverse2(s2);
+    cout << s2 << endl;
 }
 
 void swap(char &a, char &b)
